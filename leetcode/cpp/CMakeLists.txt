@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(twoSumII.out twoSumII/solution.cpp)
 add_executable(sumOfSquareNumbers.out sumOfSquareNumbers/solution.cpp)
+add_executable(reverseVowels.out reverseVowels/solution.cpp)
