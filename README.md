@@ -6,6 +6,7 @@ __LeetCode__
 
 | #    | Title                                                        | Solution                                                     | Difficulty |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
+| 75   | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | [C++](leetcode/cpp/sortColors/solution.cpp), [Python](leetcode/python/SortColors/solution.py) | Medium     |
 | 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](leetcode/cpp/mergeSortedArray/solution.cpp), [Python](leetcode/python/MergeSortedArray/solution.py) | Easy       |
 | 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [C++](leetcode/cpp/linkedListCycle/solution.cpp), [Python](leetcode/python/LinkedListCycle/solution.py) | Easy       |
 | 167  | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [C++](leetcode/cpp/twoSumII/solution.cpp), [Java](leetcode/java/src/twosumii/Solution.java), [Python](leetcode/python/TwoSumII/solution.py), [Go](leetcode/golang/twoSumII/solution.go), [Kotlin](leetcode/kotlin/src/twosumii/solution.kt) | Easy       |
