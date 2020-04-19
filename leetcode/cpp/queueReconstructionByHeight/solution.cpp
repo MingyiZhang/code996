@@ -37,12 +37,17 @@ vector<vector<int>> reconstructQueueLowestFirst(vector<vector<int>> &people) {
 // insert highest first, slow
 vector<vector<int>> reconstructQueueHighestFirst(vector<vector<int>> &people) {
   sort(people.begin(), people.end(), [](const auto &p1, const auto &p2) {
-    return p1[0] > p2[0] || (p1[0] == p2[0] && p1[1] < p2[1]);
+    if (p1[0] == p2[0]) {
+      return p1[1] < p2[1];
+    } else {
+      return p1[0] > p2[0];
+    }
+//    return p1[0] > p2[0] || (p1[0] == p2[0] && p1[1] < p2[1]);
   });
 
   vector<vector<int>> ans;
   for (const auto &p : people) {
-    ans.insert(ans.cbegin() + p[1], p);  // this is slow, every insertion is O(n) for copy
+    ans.insert(ans.cbegin() + p[1], p);  // this is slow, every insertion is O(n) search and O(n) copy
   }
   return ans;
 }
