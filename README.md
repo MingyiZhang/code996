@@ -24,5 +24,6 @@ __LeetCode__
 | 524  | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | [C++](leetcode/cpp/findLongestWord/solution.cpp), [Python](leetcode/python/FindLongestWord/solution.py) | Medium     |       |
 | 605  | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/) | [C++](leetcode/cpp/canPlaceFlowers/solution.cpp), [Python](leetcode/python/CanPlaceFlowers/solution.py) | Easy       |       |
 | 633  | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | [C++](leetcode/cpp/sumOfSquareNumbers/solution.cpp), [Java](leetcode/java/src/sumofsquarenumbers/Solution.java), [Python](leetcode/python/SumOfSquareNumbers/solution.py) | Easy       |       |
+| 665  | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/description/) | [C++](leetcode/cpp/nonDecreasingArray/solution.cpp), [Python](leetcode/python/NonDecreasingArray/solution.py) | Easy       |       |
 | 680  | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) | [C++](leetcode/cpp/validPalindromeII/solution.cpp), [Python](leetcode/python/ValidPalindromeII/solution.py) | Easy       |       |
 
