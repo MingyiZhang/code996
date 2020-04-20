@@ -6,6 +6,7 @@ __LeetCode__
 
 | #    | Title                                                        | Solution                                                     | Difficulty | Liked |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----- |
+| 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [C++](leetcode/cpp/maximumSubarray/solution.cpp), [Python](leetcode/python/MaximumSubarray/solution.py) | Easy       | 👍     |
 | 75   | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | [C++](leetcode/cpp/sortColors/solution.cpp), [Python](leetcode/python/SortColors/solution.py) | Medium     |       |
 | 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](leetcode/cpp/mergeSortedArray/solution.cpp), [Python](leetcode/python/MergeSortedArray/solution.py) | Easy       |       |
 | 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [C++](leetcode/cpp/bestTimeToBuyAndSellStock/solution.cpp), [Python](leetcode/python/BestTimeToBuyAndSellStock/solution.py) | Easy       |       |
