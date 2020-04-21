@@ -28,5 +28,6 @@ __LeetCode__
 | 633  | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | [C++](leetcode/cpp/sumOfSquareNumbers/solution.cpp), [Java](leetcode/java/src/sumofsquarenumbers/Solution.java), [Python](leetcode/python/SumOfSquareNumbers/solution.py) | Easy       |       |               |
 | 665  | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/description/) | [C++](leetcode/cpp/nonDecreasingArray/solution.cpp), [Python](leetcode/python/NonDecreasingArray/solution.py) | Easy       |       |               |
 | 680  | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) | [C++](leetcode/cpp/validPalindromeII/solution.cpp), [Python](leetcode/python/ValidPalindromeII/solution.py) | Easy       |       |               |
+| 744  | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) | [C++](leetcode/cpp/findSmallestLetterGreaterThanTarget/solution.cpp), [Python](leetcode/python/FindSmallestLetterGreaterThanTarget/solution.py) | Easy       |       |               |
 | 763  | [Partition Labels](https://leetcode.com/problems/partition-labels/description/) | [C++](leetcode/cpp/partitionLabels/solution.cpp), [Python](leetcode/python/PartitionLabels/solution.py) | Medium     | 👍     |               |
 
