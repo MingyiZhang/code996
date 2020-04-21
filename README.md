@@ -6,6 +6,7 @@ __LeetCode__
 
 | #    | Title                                                        | Solution                                                     | Difficulty | Liked | Remarks       |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----- | ------------- |
+| 34   | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](leetcode/cpp/findFirstLastElement/solution.cpp), [Python](leetcode/python/FindFirstLastElement/solution.py) | Medium     | 👍     | binary search |
 | 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [C++](leetcode/cpp/maximumSubarray/solution.cpp), [Python](leetcode/python/MaximumSubarray/solution.py) | Easy       | 👍     |               |
 | 69   | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)              | [C++](leetcode/cpp/sqrtx/solution.cpp), [Python](leetcode/python/Sqrtx/solution.py) | Easy       |       | binary search |
 | 75   | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | [C++](leetcode/cpp/sortColors/solution.cpp), [Python](leetcode/python/SortColors/solution.py) | Medium     |       |               |
