@@ -8,7 +8,7 @@ func shortestPathBinaryMatrix(grid [][]int) int {
   if N == 1 {
     return 1
   }
-  dirs := [][]int{
+  dirs := [8][2]int{
     {-1, -1},
     {-1, 0},
     {-1, 1},
@@ -18,7 +18,7 @@ func shortestPathBinaryMatrix(grid [][]int) int {
     {1, 0},
     {1, 1},
   }
-  q := [][]int{
+  q := [][2]int{
     {0, 0},
   }
   grid[0][0] = 1
@@ -37,7 +37,7 @@ func shortestPathBinaryMatrix(grid [][]int) int {
           return pathLength
         }
         if x > -1 && x < N && y > -1 && y < N && grid[x][y] == 0 {
-          q = append(q, []int{x, y})
+          q = append(q, [2]int{x, y})
           grid[x][y] = 1
         }
       }
