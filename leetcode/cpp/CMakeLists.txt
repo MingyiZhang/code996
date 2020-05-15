@@ -3,8 +3,25 @@ project(leetcode)
 
 set(CMAKE_CXX_STANDARD 17)
 
+option(PACKAGE_TESTS "Build the tests" ON)
+if (PACKAGE_TESTS)
+  enable_testing()
+  include(GoogleTest)
+  add_subdirectory("extern/googletest")
+endif ()
+
 macro(ADD_EXE NAME)
   add_executable(${NAME}.out ${NAME}/solution.cpp)
+endmacro()
+
+macro(ADD_TEST NAME)
+  add_executable(${NAME}_test ${NAME}/solution_test.cpp)
+  target_link_libraries(${NAME}_test gtest gmock gtest_main)
+endmacro()
+
+macro(ADD_EXE_TEST NAME)
+  add_exe(${NAME})
+  add_test(${NAME})
 endmacro()
 
 add_exe(twoSumII)
@@ -39,5 +56,5 @@ add_exe(diffWaysToAddParentheses)
 add_exe(uniqueBinarySearchTreeII)
 add_exe(shortestPathInBinaryMatrix)
 add_exe(perfectSquares)
-add_exe(maxAreaIsland)
-add_exe(friendCircles)
+add_exe_test(maxAreaIsland)
+add_exe_test(friendCircles)

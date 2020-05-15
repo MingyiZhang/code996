@@ -3,7 +3,6 @@
 //
 
 #include <vector>
-#include <cassert>
 
 using namespace std;
 
@@ -36,40 +35,4 @@ int maxAreaOfIsland(vector<vector<int>> &grid) {
     }
   }
   return ret;
-}
-
-struct Test {
-  vector<vector<int>> grid;
-  int ans;
-};
-
-int main() {
-  vector<Test> tests{
-      {
-          .grid = {{0, 1, 0},
-                   {1, 0, 1},
-                   {0, 1, 1}},
-          .ans = 3
-      },
-      {
-          .grid =   {{0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
-                     {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
-                     {0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
-                     {0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0},
-                     {0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0},
-                     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
-                     {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
-                     {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0}},
-          .ans =   6
-      },
-      {
-          .grid = {{0, 0, 0, 0, 0}},
-          .ans = 0
-      }
-  };
-  for (auto &tt : tests) {
-    int actual = maxAreaOfIsland(tt.grid);
-    assert(tt.ans == actual);
-  }
-  return 0;
 }
