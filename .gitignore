@@ -3,3 +3,4 @@ scratch
 out
 cmake-build-debug
 __pycache__
+.pytest_cache

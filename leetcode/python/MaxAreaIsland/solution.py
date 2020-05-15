@@ -24,28 +24,3 @@ def max_area_of_island(grid: List[List[int]]) -> int:
             if grid[i][j] != 0:
                 ret = max(ret, max_area(i, j, I, J, grid))
     return ret
-
-
-if __name__ == '__main__':
-    tests = [
-        dict(
-            grid=[[0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
-                  [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
-                  [0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
-                  [0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0],
-                  [0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0],
-                  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
-                  [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
-                  [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0]],
-            ans=6
-        ),
-        dict(
-            grid=[[0, 0, 0, 0, 0, 0, 0, 0]],
-            ans=0
-        )
-    ]
-
-    for tt in tests:
-        actual = max_area_of_island(tt['grid'])
-        if tt['ans'] != actual:
-            raise Exception(f"got {actual}; expected {tt['ans']} with input {tt['grid']}")
