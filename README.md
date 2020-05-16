@@ -8,6 +8,8 @@ __LeetCode__
 >
 > BFS: breadth first search
 >
+> BT: backtracking
+>
 > DFS: depth first search
 >
 > DC: divide & conquer
@@ -16,6 +18,7 @@ __LeetCode__
 
 | #    | Title                                                        | Solution                                                     | Difficulty | Liked | Remarks |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----- | ------- |
+| 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Python](leetcode/python/LetterCombinations/solution.py)     | Medium     |       | BT      |
 | 34   | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](leetcode/cpp/findFirstLastElement/solution.cpp), [Python](leetcode/python/FindFirstLastElement/solution.py) | Medium     | 👍     | BS      |
 | 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [C++](leetcode/cpp/maximumSubarray/solution.cpp), [Python](leetcode/python/MaximumSubarray/solution.py), [Go](leetcode/golang/maximumSubarray/solution.go) | Easy       | 👍     |         |
 | 69   | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)              | [C++](leetcode/cpp/sqrtx/solution.cpp), [Python](leetcode/python/Sqrtx/solution.py) | Easy       |       | BS      |
