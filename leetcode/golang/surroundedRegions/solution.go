@@ -6,7 +6,7 @@ var (
   dy = []int{1, -1, 0, 0}
 )
 
-func dfs(i int, j int, I int, J int, board [][]byte) {
+func dfs(i, j, I, J int, board [][]byte) {
   if i < 0 || i >= I || j < 0 || j >= J || board[i][j] != 'O' {
     return
   }
