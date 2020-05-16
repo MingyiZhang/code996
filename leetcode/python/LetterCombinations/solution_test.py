@@ -1,31 +1,17 @@
-from typing import List, Set
+import pytest
 
-KEYS = {
-    '2': 'abc',
-    '3': 'def',
-    '4': 'ghi',
-    '5': 'jkl',
-    '6': 'mno',
-    '7': 'pqrs',
-    '8': 'tuv',
-    '9': 'wxyz'
-}
+from LetterCombinations.solution import letter_combinations
 
 
-def do_combinations(prefix: str, digits: str, combinations: Set[str]) -> None:
-    if len(prefix) == len(digits):
-        combinations.add(prefix)
-        return
-    d = digits[len(prefix)]
-    for c in KEYS[d]:
-        prefix += c
-        do_combinations(prefix, digits, combinations)
-        prefix = prefix[:-1]
-
-
-def letter_combinations(digits: str) -> List[str]:
-    if len(digits) == 0:
-        return []
-    ret = set()
-    do_combinations('', digits, ret)
-    return list(ret)
+@pytest.mark.parametrize(
+    "digits, expected",
+    [(
+            "23",
+            ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
+    ), (
+            "",
+            []
+    )]
+)
+def test_letter_combinations(digits, expected):
+    assert set(expected) == set(letter_combinations(digits))
