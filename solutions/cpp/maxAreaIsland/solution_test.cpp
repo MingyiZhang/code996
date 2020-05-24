@@ -6,41 +6,39 @@
 #include <vector>
 
 #include "solution.cpp"
+#include "../include/structures.hpp"
 
 using namespace std;
 
-struct MaxAreaOfIslandTestStruct {
-  vector<vector<int>> grid;
-  int expected;
-};
+typedef TestStruct<vector<vector<int>>, int> TStruct;
 
-class MaxAreaOfIslandTest : public ::testing::TestWithParam<MaxAreaOfIslandTestStruct> {};
+class MaxAreaOfIslandTest : public ::testing::TestWithParam<TStruct> {};
 
 TEST_P(MaxAreaOfIslandTest, Test) {
-  MaxAreaOfIslandTestStruct tt = GetParam();
-  ASSERT_EQ(tt.expected, maxAreaOfIsland(tt.grid));
+  TStruct tt = GetParam();
+  ASSERT_EQ(tt.expected, maxAreaOfIsland(tt.input));
 }
 
 INSTANTIATE_TEST_SUITE_P (Tests, MaxAreaOfIslandTest, ::testing::Values(
-    MaxAreaOfIslandTestStruct{
-        .grid = {{0, 1, 0},
-                 {1, 0, 1},
-                 {0, 1, 1}},
+    TStruct{
+        .input = {{0, 1, 0},
+                  {1, 0, 1},
+                  {0, 1, 1}},
         .expected = 3
     },
-    MaxAreaOfIslandTestStruct{
-        .grid =   {{0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
-                   {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
-                   {0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
-                   {0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0},
-                   {0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0},
-                   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
-                   {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
-                   {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0}},
+    TStruct{
+        .input =   {{0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+                    {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
+                    {0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
+                    {0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0},
+                    {0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0},
+                    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+                    {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
+                    {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0}},
         .expected = 6
     },
-    MaxAreaOfIslandTestStruct{
-        .grid = {{0, 0, 0, 0, 0}},
+    TStruct{
+        .input = {{0, 0, 0, 0, 0}},
         .expected = 0
     })
 );

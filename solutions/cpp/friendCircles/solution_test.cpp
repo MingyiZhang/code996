@@ -6,39 +6,37 @@
 #include <vector>
 
 #include "solution.cpp"
+#include "../include/structures.hpp"
 
 using namespace std;
 
-struct FindCircleNumTestStruct {
-  vector<vector<int>> m;
-  int expected;
-};
+typedef TestStruct<vector<vector<int>>, int> TStruct;
 
-class FindCircleNumTest : public ::testing::TestWithParam<FindCircleNumTestStruct> {};
+class FindCircleNumTest : public ::testing::TestWithParam<TStruct> {};
 
 TEST_P(FindCircleNumTest, Test) {
-  FindCircleNumTestStruct tt = GetParam();
-  ASSERT_EQ(tt.expected, findCircleNum(tt.m));
+  TStruct tt = GetParam();
+  ASSERT_EQ(tt.expected, findCircleNum(tt.input));
 }
 
 INSTANTIATE_TEST_SUITE_P(Tests, FindCircleNumTest, ::testing::Values(
-    FindCircleNumTestStruct{
-        .m = {{1, 1, 0},
-              {1, 1, 0},
-              {0, 0, 1}},
+    TStruct{
+        .input = {{1, 1, 0},
+                  {1, 1, 0},
+                  {0, 0, 1}},
         .expected = 2
     },
-    FindCircleNumTestStruct{
-        .m = {{1, 1, 0},
-              {1, 1, 1},
-              {0, 1, 1}},
+    TStruct{
+        .input = {{1, 1, 0},
+                  {1, 1, 1},
+                  {0, 1, 1}},
         .expected = 1
     },
-    FindCircleNumTestStruct{
-        .m = {{1, 0, 0, 1},
-              {0, 1, 1, 0},
-              {0, 1, 1, 1},
-              {1, 0, 1, 1}},
+    TStruct{
+        .input = {{1, 0, 0, 1},
+                  {0, 1, 1, 0},
+                  {0, 1, 1, 1},
+                  {1, 0, 1, 1}},
         .expected = 1
     }
 ));

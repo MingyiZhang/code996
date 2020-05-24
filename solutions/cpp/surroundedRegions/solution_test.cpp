@@ -3,34 +3,29 @@
 //
 
 #include <gtest/gtest.h>
+#include <gmock/gmock.h>
 
 #include "solution.cpp"
+#include "../include/structures.hpp"
 
 using namespace std;
+using namespace testing;
 
-struct SurroundedRegionsTestStruct {
-  vector<vector<char>> board;
-  vector<vector<char>> expected;
-};
+typedef TestStruct<vector<vector<char>>, vector<vector<char>>> TStruct;
 
 class SurroundedRegionsTest
-    : public ::testing::TestWithParam<SurroundedRegionsTestStruct> {
+    : public ::testing::TestWithParam<TStruct> {
 };
 
 TEST_P(SurroundedRegionsTest, Test) {
-  SurroundedRegionsTestStruct tt = GetParam();
-  solve(tt.board);
-  for (int i = 0; i < tt.board.size(); i++) {
-    for (int j = 0; j < tt.board[0].size(); j++) {
-      EXPECT_EQ(tt.expected[i][j], tt.board[i][j])
-                << "expected board and actual board differ at index " << i << " and " << j << '\n';
-    }
-  }
+  TStruct tt = GetParam();
+  solve(tt.input);
+  ASSERT_THAT(tt.input, ElementsAreArray(tt.expected));
 }
 
 INSTANTIATE_TEST_SUITE_P(Tests, SurroundedRegionsTest, ::testing::Values(
-    SurroundedRegionsTestStruct{
-        .board = {{'X', 'X', 'X', 'X'},
+    TStruct{
+        .input = {{'X', 'X', 'X', 'X'},
                   {'X', 'O', 'O', 'X'},
                   {'X', 'X', 'O', 'X'},
                   {'X', 'O', 'X', 'X'}},
@@ -39,8 +34,8 @@ INSTANTIATE_TEST_SUITE_P(Tests, SurroundedRegionsTest, ::testing::Values(
                      {'X', 'X', 'X', 'X'},
                      {'X', 'O', 'X', 'X'}}
     },
-    SurroundedRegionsTestStruct{
-        .board = {{'X', 'O', 'X'},
+    TStruct{
+        .input = {{'X', 'O', 'X'},
                   {'X', 'O', 'X'},
                   {'X', 'O', 'X'}},
         .expected = {{'X', 'O', 'X'},

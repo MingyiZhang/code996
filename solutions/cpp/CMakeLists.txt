@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.15)
-project(leetcode)
+project(solutions)
 
 set(CMAKE_CXX_STANDARD 17)
+
+file(GLOB HEADER_LIST CONFIGURE_DEPENDS "include/*.hpp")
 
 option(PACKAGE_TESTS "Build the tests" ON)
 if (PACKAGE_TESTS)
@@ -15,7 +17,7 @@ macro(ADD_EXE NAME)
 endmacro()
 
 macro(ADD_TEST NAME)
-  add_executable(${NAME}_test ${NAME}/solution_test.cpp)
+  add_executable(${NAME}_test ${NAME}/solution_test.cpp ${HEADER_LIST})
   target_link_libraries(${NAME}_test gtest gmock gtest_main)
 endmacro()
 
@@ -59,3 +61,4 @@ add_exe(perfectSquares)
 add_exe_test(maxAreaIsland)
 add_exe_test(friendCircles)
 add_exe_test(surroundedRegions)
+add_exe_test(restoreIpAddress)
