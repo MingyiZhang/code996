@@ -20,6 +20,7 @@ __LeetCode__
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----- | ------- |
 | 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Python](solutions/python/LetterCombinations/solution.py)    | Medium     |       | BT      |
 | 34   | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](solutions/cpp/findFirstLastElement/solution.cpp), [Python](solutions/python/FindFirstLastElement/solution.py) | Medium     | 👍     | BS      |
+| 46   | [Permutations](https://leetcode.com/problems/permutations/description/) | [C++](solutions/cpp/permutations/solution.cpp)               | Medium     |       | BT      |
 | 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [C++](solutions/cpp/maximumSubarray/solution.cpp), [Python](solutions/python/MaximumSubarray/solution.py), [Go](solutions/golang/maximumSubarray/solution.go) | Easy       | 👍     |         |
 | 69   | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)              | [C++](solutions/cpp/sqrtx/solution.cpp), [Python](solutions/python/Sqrtx/solution.py) | Easy       |       | BS      |
 | 75   | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | [C++](solutions/cpp/sortColors/solution.cpp), [Python](solutions/python/SortColors/solution.py) | Medium     |       |         |
