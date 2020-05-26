@@ -23,6 +23,7 @@ __LeetCode__
 | 39   | [Combination Sum](https://leetcode.com/problems/combination-sum/description/) | [C++](solutions/cpp/combinationSum/solution.cpp), [Go](solutions/golang/combinationSum/solution.go) | Medium     | 👍     | BT      |
 | 46   | [Permutations](https://leetcode.com/problems/permutations/description/) | [C++](solutions/cpp/permutations/solution.cpp)               | Medium     |       | BT      |
 | 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [C++](solutions/cpp/maximumSubarray/solution.cpp), [Python](solutions/python/MaximumSubarray/solution.py), [Go](solutions/golang/maximumSubarray/solution.go) | Easy       | 👍     |         |
+| 64   | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) | [C++](solutions/cpp/minimumPathSum/solution.cpp), [Go](solutions/golang/minimumPathSum/solution.go) | Medium     | 👍     | DP      |
 | 69   | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)              | [C++](solutions/cpp/sqrtx/solution.cpp), [Python](solutions/python/Sqrtx/solution.py) | Easy       |       | BS      |
 | 70   | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [C++](solutions/cpp/climbingStairs/solution.cpp), [Go](solutions/golang/climbingStairs/solution.go) | Easy       | 👍     | DP      |
 | 75   | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | [C++](solutions/cpp/sortColors/solution.cpp), [Python](solutions/python/SortColors/solution.py) | Medium     |       |         |
