@@ -4,6 +4,8 @@ This is my coding exercises.
 
 __LeetCode__ 
 
+> __Algorithm__:
+>
 > BS: binary search
 >
 > BFS: breadth first search
@@ -15,10 +17,15 @@ __LeetCode__
 > DC: divide & conquer
 >
 > DP: dynamic programming
+>
+> __Data Structure__:
+>
+> LL: Linked List
 
 | #    | Title                                                        | Solution                                                     | Difficulty | Liked | Remarks |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----- | ------- |
 | 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Python](solutions/python/LetterCombinations/solution.py)    | Medium     |       | BT      |
+| 21   | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |                                                              | Easy       |       | LL      |
 | 34   | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](solutions/cpp/findFirstLastElement/solution.cpp), [Python](solutions/python/FindFirstLastElement/solution.py) | Medium     | 👍     | BS      |
 | 39   | [Combination Sum](https://leetcode.com/problems/combination-sum/description/) | [C++](solutions/cpp/combinationSum/solution.cpp), [Go](solutions/golang/combinationSum/solution.go) | Medium     | 👍     | BT      |
 | 46   | [Permutations](https://leetcode.com/problems/permutations/description/) | [C++](solutions/cpp/permutations/solution.cpp)               | Medium     |       | BT      |
@@ -27,6 +34,7 @@ __LeetCode__
 | 69   | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)              | [C++](solutions/cpp/sqrtx/solution.cpp), [Python](solutions/python/Sqrtx/solution.py) | Easy       |       | BS      |
 | 70   | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [C++](solutions/cpp/climbingStairs/solution.cpp), [Go](solutions/golang/climbingStairs/solution.go) | Easy       | 👍     | DP      |
 | 75   | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | [C++](solutions/cpp/sortColors/solution.cpp), [Python](solutions/python/SortColors/solution.py) | Medium     |       |         |
+| 83   | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) |                                                              | Easy       |       | LL      |
 | 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](solutions/cpp/mergeSortedArray/solution.cpp), [Python](solutions/python/MergeSortedArray/solution.py) | Easy       |       |         |
 | 93   | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [C++](solutions/cpp/restoreIpAddress/solution.cpp), [Python](solutions/python/RestoreIpAddress/solution.py) | Medium     |       | BT      |
 | 95   | [Unique Binary Search Tree II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/) | [C++](solutions/cpp/uniqueBinarySearchTreeII/solution.cpp), [Python](solutions/python/UniqueBinarySearchTreeII/solution.py) | Medium     | 👍     | DC, DP  |
@@ -35,7 +43,9 @@ __LeetCode__
 | 130  | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) | [C++](solutions/cpp/surroundedRegions/solution.cpp), [Python](solutions/python/SurroundedRegions/solution.py), [Go](solutions/golang/surroundedRegions/solution.go) | Medium     | 👍     | DFS     |
 | 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [C++](solutions/cpp/linkedListCycle/solution.cpp), [Python](solutions/python/LinkedListCycle/solution.py) | Easy       |       |         |
 | 153  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | [C++](solutions/cpp/findMinimumRotatedSortedArray/solution.cpp), [Python](solutions/python/FindMinimumRotatedSortedArray/solution.py) | Medium     | 👍     | BS      |
+| 160  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) |                                                              | Easy       |       | LL      |
 | 167  | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [C++](solutions/cpp/twoSumII/solution.cpp), [Java](solutions/java/src/twosumii/Solution.java), [Python](solutions/python/TwoSumII/solution.py), [Go](solutions/golang/twoSumII/solution.go), [Kotlin](solutions/kotlin/src/twosumii/solution.kt) | Easy       |       |         |
+| 206  | [Reverse Linked List](https://leetcode.com/problems/merge-two-sorted-lists/description/) |                                                              | Easy       |       | LL      |
 | 215  | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [C++](solutions/cpp/kthLargestElement/solution.cpp), [Python](solutions/python/KthLargestElement/solution.py) | Medium     |       |         |
 | 241  | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/description/) | [C++](solutions/cpp/diffWaysToAddParentheses/solution.cpp), [Python](solutions/python/DiffWaysToAddParentheses/solution.py) | Medium     | 👍     | DC, DP  |
 | 278  | [First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | [C++](solutions/cpp/firstBadVersion/solution.cpp), [Python](solutions/python/FirstBadVersion/solution.py) | Easy       |       | BS      |
@@ -57,6 +67,7 @@ __LeetCode__
 | 665  | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/description/) | [C++](solutions/cpp/nonDecreasingArray/solution.cpp), [Python](solutions/python/NonDecreasingArray/solution.py) | Easy       |       |         |
 | 680  | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) | [C++](solutions/cpp/validPalindromeII/solution.cpp), [Python](solutions/python/ValidPalindromeII/solution.py) | Easy       |       |         |
 | 695  | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) | [C++](solutions/cpp/maxAreaIsland/solution.cpp), [Python](solutions/python/MaxAreaIsland/solution.py), [Go](solutions/golang/maxAreaIsland/solution.go) | Medium     |       | DFS     |
+| 725  | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) |                                                              | Medium     |       | LL      |
 | 744  | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) | [C++](solutions/cpp/findSmallestLetterGreaterThanTarget/solution.cpp), [Python](solutions/python/FindSmallestLetterGreaterThanTarget/solution.py) | Easy       |       | BS      |
 | 763  | [Partition Labels](https://leetcode.com/problems/partition-labels/description/) | [C++](solutions/cpp/partitionLabels/solution.cpp), [Python](solutions/python/PartitionLabels/solution.py) | Medium     | 👍     |         |
 | 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [C++](solutions/cpp/shortestPathInBinaryMatrix/solution.cpp), [Python](solutions/python/ShortestPathInBinaryMatrix/solution.py), [Go](solutions/golang/shortestPathInBinaryMatrix/solution.go) | Medium     | 👍     | BFS     |
