@@ -21,6 +21,8 @@ __LeetCode__
 > __Data Structure__:
 >
 > LL: Linked List
+>
+> TR: Tree
 
 | #    | Title                                                        | Solution                                                     | Difficulty | Liked | Remarks |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----- | ------- |
@@ -38,6 +40,7 @@ __LeetCode__
 | 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](solutions/cpp/mergeSortedArray/solution.cpp), [Python](solutions/python/MergeSortedArray/solution.py) | Easy       |       |         |
 | 93   | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [C++](solutions/cpp/restoreIpAddress/solution.cpp), [Python](solutions/python/RestoreIpAddress/solution.py) | Medium     |       | BT      |
 | 95   | [Unique Binary Search Tree II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/) | [C++](solutions/cpp/uniqueBinarySearchTreeII/solution.cpp), [Python](solutions/python/UniqueBinarySearchTreeII/solution.py) | Medium     | 👍     | DC, DP  |
+| 110  | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) |                                                              | Easy       |       | TR      |
 | 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [C++](solutions/cpp/bestTimeToBuyAndSellStock/solution.cpp), [Python](solutions/python/BestTimeToBuyAndSellStock/solution.py) | Easy       |       |         |
 | 122  | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C++](solutions/cpp/bestTimeToBuyAndSellStockII/solution.cpp), [Python](solutions/python/BestTimeToBuyAndSellStockII/solution.py), [Go](solutions/golang/bestTimeToBuyAndSellStockII/solution.go) | Easy       | 👍     |         |
 | 130  | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) | [C++](solutions/cpp/surroundedRegions/solution.cpp), [Python](solutions/python/SurroundedRegions/solution.py), [Go](solutions/golang/surroundedRegions/solution.go) | Medium     | 👍     | DFS     |
@@ -70,5 +73,6 @@ __LeetCode__
 | 725  | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) |                                                              | Medium     |       | LL      |
 | 744  | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) | [C++](solutions/cpp/findSmallestLetterGreaterThanTarget/solution.cpp), [Python](solutions/python/FindSmallestLetterGreaterThanTarget/solution.py) | Easy       |       | BS      |
 | 763  | [Partition Labels](https://leetcode.com/problems/partition-labels/description/) | [C++](solutions/cpp/partitionLabels/solution.cpp), [Python](solutions/python/PartitionLabels/solution.py) | Medium     | 👍     |         |
+| 785  | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/description/) | [C++](solutions/cpp/isGraphBipartite/solution.cpp)           | Medium     | 👍     | DFS     |
 | 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [C++](solutions/cpp/shortestPathInBinaryMatrix/solution.cpp), [Python](solutions/python/ShortestPathInBinaryMatrix/solution.py), [Go](solutions/golang/shortestPathInBinaryMatrix/solution.go) | Medium     | 👍     | BFS     |
 
