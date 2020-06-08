@@ -1,5 +1,10 @@
 package diffWaysToAddParentheses;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 class Solution {
     public List<Integer> diffWaysToCompute(String input) {
         Map<String, List<Integer>> m = new HashMap<>();

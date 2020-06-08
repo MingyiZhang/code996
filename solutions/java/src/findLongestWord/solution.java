@@ -1,4 +1,6 @@
-package findlongestword;
+package findLongestWord;
+
+import java.util.List;
 
 class Solution {
     public String findLongestWord(String s, List<String> d) {
