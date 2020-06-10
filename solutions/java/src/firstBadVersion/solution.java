@@ -13,4 +13,8 @@ public class solution {
         }
         return left;
     }
+
+    private boolean isBadVersion(int x) {
+        return true;
+    }
 }
