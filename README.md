@@ -22,12 +22,16 @@ __LeetCode__
 >
 > LL: Linked List
 >
+> ST: Stack
+>
 > TR: Tree
+>
+> 
 
 | #    | Title                                                        | Solution                                                     | Difficulty | Liked | Remarks |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----- | ------- |
 | 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Python](solutions/python/LetterCombinations/solution.py)    | Medium     |       | BT      |
-| 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Python](solutions/python/ValidParentheses/solution.py), [Java](solutions/java/src/validParentheses/solution.java)                                           | Easy       |       |         |
+| 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Python](solutions/python/ValidParentheses/solution.py), [Java](solutions/java/src/validParentheses/solution.java) | Easy       |       |         |
 | 21   | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](solutions/java/src/mergeTwoSortedLists/solution.java) | Easy       |       | LL      |
 | 34   | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](solutions/cpp/findFirstLastElement/solution.cpp), [Python](solutions/python/FindFirstLastElement/solution.py), [Java](solutions/java/src/findFirstLastElement/solution.java) | Medium     | 👍     | BS      |
 | 39   | [Combination Sum](https://leetcode.com/problems/combination-sum/description/) | [C++](solutions/cpp/combinationSum/solution.cpp), [Go](solutions/golang/combinationSum/solution.go) | Medium     | 👍     | BT      |
@@ -74,6 +78,7 @@ __LeetCode__
 | 680  | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) | [C++](solutions/cpp/validPalindromeII/solution.cpp), [Python](solutions/python/ValidPalindromeII/solution.py) | Easy       |       |         |
 | 695  | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) | [C++](solutions/cpp/maxAreaIsland/solution.cpp), [Python](solutions/python/MaxAreaIsland/solution.py), [Java](solutions/java/src/maxAreaIsland/solution.java), [Go](solutions/golang/maxAreaIsland/solution.go) | Medium     |       | DFS     |
 | 725  | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) |                                                              | Medium     |       | LL      |
+| 739  | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) | [Java](solutions/java/src/dailyTemperatures/solution.java)   | Medium     |       | ST      |
 | 744  | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) | [C++](solutions/cpp/findSmallestLetterGreaterThanTarget/solution.cpp), [Python](solutions/python/FindSmallestLetterGreaterThanTarget/solution.py) | Easy       |       | BS      |
 | 763  | [Partition Labels](https://leetcode.com/problems/partition-labels/description/) | [C++](solutions/cpp/partitionLabels/solution.cpp), [Python](solutions/python/PartitionLabels/solution.py) | Medium     | 👍     |         |
 | 785  | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/description/) | [C++](solutions/cpp/isGraphBipartite/solution.cpp)           | Medium     | 👍     | DFS     |
