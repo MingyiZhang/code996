@@ -81,6 +81,6 @@ __LeetCode__
 | 739  | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) | [Java](solutions/java/src/dailyTemperatures/solution.java)   | Medium     |       | ST      |
 | 744  | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) | [C++](solutions/cpp/findSmallestLetterGreaterThanTarget/solution.cpp), [Python](solutions/python/FindSmallestLetterGreaterThanTarget/solution.py) | Easy       |       | BS      |
 | 763  | [Partition Labels](https://leetcode.com/problems/partition-labels/description/) | [C++](solutions/cpp/partitionLabels/solution.cpp), [Python](solutions/python/PartitionLabels/solution.py) | Medium     | 👍     |         |
-| 785  | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/description/) | [C++](solutions/cpp/isGraphBipartite/solution.cpp)           | Medium     | 👍     | DFS     |
+| 785  | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/description/) | [C++](solutions/cpp/isGraphBipartite/solution.cpp), [Java](solutions/java/src/isGraphBipartite/solution.java)           | Medium     | 👍     | DFS     |
 | 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [C++](solutions/cpp/shortestPathInBinaryMatrix/solution.cpp), [Python](solutions/python/ShortestPathInBinaryMatrix/solution.py), [Go](solutions/golang/shortestPathInBinaryMatrix/solution.go) | Medium     | 👍     | BFS     |
 
