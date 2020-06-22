@@ -3,7 +3,7 @@ package partitionLabels;
 import java.util.ArrayList;
 import java.util.List;
 
-public class solution {
+public class Solution {
     public List<Integer> partitionLabels(String S) {
         int[] ends = new int[26];
         for (int i = 0; i < S.length(); i++) {

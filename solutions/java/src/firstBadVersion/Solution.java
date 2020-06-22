@@ -1,6 +1,6 @@
 package firstBadVersion;
 
-public class solution {
+public class Solution {
     public int firstBadVersion(int n) {
         int left = 1, right = n;
         while (left < right) {

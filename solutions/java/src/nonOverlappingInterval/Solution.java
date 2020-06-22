@@ -2,7 +2,7 @@ package nonOverlappingInterval;
 
 import java.util.Arrays;
 
-public class solution {
+public class Solution {
     public int eraseOverlapIntervals(int[][] intervals) {
         if (intervals.length == 0) {
             return 0;

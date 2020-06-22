@@ -1,6 +1,6 @@
 package sortColors;
 
-public class solution {
+public class Solution {
     public void sortColors(int[] nums) {
         // [0...j-1] == 0, [j...i-1] == 1, [i] = v, [k...n-1] == 2
         int n = nums.length;

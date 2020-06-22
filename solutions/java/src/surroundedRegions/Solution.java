@@ -1,6 +1,6 @@
 package surroundedRegions;
 
-public class solution {
+public class Solution {
     public void solve(char[][] board) {
         if (board.length == 0) {
             return;

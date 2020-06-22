@@ -1,6 +1,6 @@
 package findFirstLastElement;
 
-public class solution {
+public class Solution {
     public int[] searchRange(int[] nums, int target) {
         if (nums.length == 0) {
             return new int[] { -1, -1 };

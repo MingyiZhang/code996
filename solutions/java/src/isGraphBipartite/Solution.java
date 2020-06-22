@@ -1,6 +1,6 @@
 package isGraphBipartite;
 
-public class solution {
+public class Solution {
     class Solution {
         public boolean isBipartite(int[][] graph) {
             int length = graph.length;

@@ -3,7 +3,7 @@ package perfectSquares;
 import java.util.ArrayList;
 import java.util.List;
 
-public class solution {
+public class Solution {
     private List<Integer> getSquares(int n) {
         int a = 1;
         int diff = 3;

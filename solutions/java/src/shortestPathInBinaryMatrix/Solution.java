@@ -3,7 +3,7 @@ package shortestPathInBinaryMatrix;
 import java.util.ArrayList;
 import java.util.List;
 
-public class solution {
+public class Solution {
     public int shortestPathBinaryMatrix(int[][] grid) {
         if (grid.length == 0) {
             return 0;

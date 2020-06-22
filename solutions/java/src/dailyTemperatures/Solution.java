@@ -2,7 +2,7 @@ package dailyTemperatures;
 
 import java.util.Stack;
 
-public class solution {
+public class Solution {
     public int[] dailyTemperatures(int[] T) {
         int[] ret = new int[T.length];
         Stack<Integer> stack = new Stack<>();

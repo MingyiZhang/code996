@@ -1,6 +1,6 @@
 package mergeSortedArray;
 
-public class solution {
+public class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int k = nums1.length - 1;
         int i = m - 1;

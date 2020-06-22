@@ -1,6 +1,6 @@
 package linkedListCycle;
 
-public class solution {
+public class Solution {
     public boolean hasCycle(ListNode head) {
         ListNode l1 = head;
         ListNode l2 = head;

@@ -1,6 +1,6 @@
 package sumOfSquareNumbers;
 
-public class solution {
+public class Solution {
     public boolean judgeSquareSum(int c) {
         int i = 0, j = (int) Math.sqrt(c);
         while (i <= j) {

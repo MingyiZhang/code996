@@ -2,7 +2,7 @@ package implementQueueUsingStacks;
 
 import java.util.Stack;
 
-public class solution {
+public class Solution {
     
     class MyQueue {
 

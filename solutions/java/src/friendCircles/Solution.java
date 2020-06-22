@@ -1,6 +1,6 @@
 package friendCircles;
 
-public class solution {
+public class Solution {
     public int findCircleNum(int[][] M) {
         int count = 0;
         for (int i = 0; i < M.length; i++) {

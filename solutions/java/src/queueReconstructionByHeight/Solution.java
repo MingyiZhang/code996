@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class solution {
+public class Solution {
     public int[][] reconstructQueue(int[][] people) {
         Arrays.sort(people, (p1, p2) -> {
             if (p1[0] == p2[0]) {
