@@ -30,7 +30,7 @@ __LeetCode__
 
 | #    | Title                                                        | Solution                                                     | Difficulty | Liked | Remarks |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----- | ------- |
-| 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Python](solutions/python/LetterCombinations/solution.py)    | Medium     |       | BT      |
+| 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Python](solutions/python/LetterCombinations/solution.py), [Java](solutions/java/src/letterCombinations/Solution.java)    | Medium     |       | BT      |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Python](solutions/python/ValidParentheses/solution.py), [Java](solutions/java/src/validParentheses/Solution.java) | Easy       |       |         |
 | 21   | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](solutions/java/src/mergeTwoSortedLists/Solution.java) | Easy       |       | LL      |
 | 34   | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](solutions/cpp/findFirstLastElement/solution.cpp), [Python](solutions/python/FindFirstLastElement/solution.py), [Java](solutions/java/src/findFirstLastElement/Solution.java) | Medium     | 👍     | BS      |
