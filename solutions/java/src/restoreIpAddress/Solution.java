@@ -3,7 +3,7 @@ package restoreIpAddress;
 import java.util.ArrayList;
 import java.util.List;
 
-public class solution {
+public class Solution {
     public List<String> restoreIpAddresses(String s) {
         List<String> ipAddresses = new ArrayList<>();
         String prefix = "";
